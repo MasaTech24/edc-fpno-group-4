@@ -528,7 +528,7 @@ button:active{
 /* tablet screen size for navigation */
 @media only screen and (max-width: 768px){
   .overlay {
-    height: 83.5vh;
+    height: 89vh !important;
     width: 100%;
     row-gap: 30px;
   }
@@ -536,10 +536,9 @@ button:active{
     height: 100vh !important;
     object-fit:cover;
   }
-  .overlay h2 {
+  .overlay .hero-h2 {
     width: 500px;
-    font-size: 45px;
-    font-weight: 600;
+    font-size: 40px;
   }
 
   .swiper-slide p, 
@@ -825,7 +824,6 @@ button:active{
   .home-img {
     width: 100%;
   }
-  .swiper-slide h2,
   .product-text, 
   .about-us-h, 
   .service, 
@@ -834,6 +832,13 @@ button:active{
     font-size: 25px;
     width: 100%;
   }
+  .overlay .hero-h2 {
+    width: 100%;
+    font-size: 28px;
+    text-align: left;
+    line-height: 1.5;
+  }
+
   .why-choose-us-col h2{
     text-align: center;
     font-size: 25px;

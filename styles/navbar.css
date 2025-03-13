@@ -117,11 +117,14 @@ nav ul li a:hover{
   .cancel-icon{
     display: flex;
     width: 40px;
+    position: fixed;
+    right: 35px;
   }
   .cancel-icon{
     position: fixed;
     right: 35px;
-    top: 0;
+    top: -10px;
+
   }
   nav  {
     position: fixed;
@@ -156,7 +159,7 @@ nav ul li a:hover{
     padding: 10px;
   }
   nav li {
-    padding:60px 15px;
+    padding:20px 15px;
     border-bottom: 1px solid rgba(197, 195, 195, 0.1);
     width: 100%;
     margin-bottom: 15px;
@@ -183,10 +186,11 @@ nav ul li a:hover{
     background-color: #051924;
   }
   nav li {
-    padding: 25px 15px;
+    padding: 20px 15px;
     margin-bottom: 15px;
   }
 }
+
 @media screen and (max-width: 478px){
   header {
     padding: 0rem 2rem;
